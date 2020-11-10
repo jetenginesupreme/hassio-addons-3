@@ -1,3 +1,4 @@
+
 {
   "build_from": {
     "aarch64": "homeassistant/aarch64-base-debian:buster",
@@ -5,6 +6,6 @@
     "armv7": "homeassistant/armv7-base-debian:buster"
   },
   "args": {
-    "ALMOND_VERSION": "v1.8.0"
+    "ALMOND_VERSION": "v1.99.0"
   }
 }
