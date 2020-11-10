@@ -34,8 +34,9 @@ RUN \
         nodejs \
         yarn \
     \
-    && git clone -b "${ALMOND_VERSION}" --depth 1 \
-        "https://github.com/stanford-oval/almond-server" . \
+#    && git clone -b "${ALMOND_VERSION}" --depth 1 \
+#        "https://github.com/stanford-oval/almond-server" . \
+    && git clone "https://github.com/stanford-oval/almond-server" . \
     && rm -fr .git \
     && yarn \
     \
